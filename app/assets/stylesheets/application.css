@@ -728,6 +728,7 @@ div#activity h3 {
 div#activity dt {
   padding-top: 10px;
   border-top: 1px solid #eeeeee;
+  width: 100%; /* Prevents border from disappearing due to inline-flex shrinking */
 }
 div#activity dl dt:first-child {
   border: 0px;
@@ -1441,6 +1442,7 @@ div.wiki a.new {color: #b73535;}
 
 div.wiki p {line-height: 1.6;}
 div.wiki ul, div.wiki ol {margin-bottom:1em;}
+div.wiki li {line-height: 1.6; margin-bottom: 0.125rem;}
 div.wiki li>ul, div.wiki li>ol {margin-bottom: 0;}
 
 div.wiki pre {
